@@ -62,6 +62,3 @@ def get_right_order():
             structured_data[hour] = price
 
     return structured_data
-
-
-print(get_right_order())
