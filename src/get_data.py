@@ -6,7 +6,7 @@ def get_raw_data():
     """Get raw electricity price data by hour."""
 
     # Open locally downloaded html file and read it
-    with open("../nordpool_full.html", "r", encoding="utf-8") as f:
+    with open("nordpool_full.html", "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f, "html.parser")
 
     # Define results dictionary

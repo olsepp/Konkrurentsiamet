@@ -1,4 +1,5 @@
-from get_data import get_right_order as data
+from src.get_data import get_right_order as data
+
 import pandas as pd
 
 
